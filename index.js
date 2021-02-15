@@ -9,4 +9,12 @@ class Circle
   {
     return this.radius*this.radius*Math.PI
   }
+  get diameter()
+  {
+    return 2*this.radius
+  }
+  get circumference()
+  {
+    return this.radius*Math.PI
+  }
 }
