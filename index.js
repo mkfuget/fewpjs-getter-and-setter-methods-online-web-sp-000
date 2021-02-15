@@ -5,4 +5,8 @@ class Circle
   {
     this.radius = radius;
   }
+  get area()
+  {
+    return this.radius*this.radius*Math.pi
+  }
 }
